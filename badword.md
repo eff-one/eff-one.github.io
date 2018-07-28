@@ -2,7 +2,7 @@
 Ref: **MyBB release version 1.8.18**
 
 ## Changes:
-With this release MyBB has redefined the system how word filters were working til now.
+With this release MyBB has redefined the system how word filters were working until now.
 
 ## Issues:
 
