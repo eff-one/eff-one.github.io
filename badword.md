@@ -20,7 +20,7 @@ https://github.com/mybb/mybb/pull/3353
   
 - **Word as regex set to 'NO':**
 
-    - _Effect:_ The dynamic word filters (using symbols to catch unknown characters) already set by admins will not work as intended due to the logic change in symbol `(*)` usage. From now onwards the symbols `'*'` (any number of any character) and `'+'` (one number of any character) will be used efficiently. For example: **`*on*`** will catch `'congo'`, `'ontology'` or `'moron'`. However, **`on+`** will catch `'one'` it will not catch `'ton'` or `'onion'`. **`my++`** will catch `'mybb'`, but will not catch `'mummy'` or `'myth'`.
+    - _Effect:_ The dynamic word filters (using symbols to catch unknown characters) already set by admins will not work as intended due to the logic change in symbol `(*)` usage. From now onwards the symbols `'*'` (any number of any character) and `'+'` (one number of any character) will be used efficiently. For example: **`*on*`** will catch `'congo'`, `'ontology'` or `'moron'`. However, **`on+`** will catch `'one'` it will not catch `'ton'` or `'onion'`. **`my++`** will catch `'mybb'` and `'myth'`, but will not catch `mya`,`'mummy'` or `'mystery'`.
     - _Corrective Action:_ Admins are required to edit all the already existing dynamic word filters and define the word as per the new logic to achieve intended behavior.
 
 ## Files Changed:
