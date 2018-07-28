@@ -2,15 +2,15 @@
 Ref: **MyBB release version 1.8.18**
 
 ## Changes:
-With this release MyBB has redefined the system how bad word filters were working til now.
+With this release MyBB has redefined the system how word filters were working til now.
 
 ## Issues:
 
 - Word as REGEX set to "YES": [Invalid REGEX strings saved by Admins can cause PHP error / warning at front-end](https://community.mybb.com/thread-218804.html).
-- Word as REGEX set to "NO": [Inefficient usage of symbols in dynamic word filters.](https://community.mybb.com/thread-218066...pid1306324)
+- Word as REGEX set to "NO": [Inefficient usage of symbol(s) in dynamic word filters.](https://community.mybb.com/thread-218066...pid1306324)
 
 ## Resolution:
-Patch:
+_Patch:_
 https://github.com/mybb/mybb/pull/3353
 
 ## Impact:
@@ -20,7 +20,7 @@ https://github.com/mybb/mybb/pull/3353
   
 - **Word as regex set to 'NO':**
 
-    - _Effect:_ The dynamic word filters (using symbols to catch unknown characters) already set by admins will not work as intended due to the logic change in symbol `(*)` usage. From now onwards the symbols `'*'` (any number of any character) and `'+'` (one number of any character) will be used efficiently. For example: **`*on*`** will catch `'congo'`, `'ontology'` or `'moron'`. However, **`on+`** will catch `'one'` it will not catch `'ton'` or `'onion'`. **`my++`** will catch `'mybb'`, but will not catch `'mummy'` or `'mysubscription'`.
+    - _Effect:_ The dynamic word filters (using symbols to catch unknown characters) already set by admins will not work as intended due to the logic change in symbol `(*)` usage. From now onwards the symbols `'*'` (any number of any character) and `'+'` (one number of any character) will be used efficiently. For example: **`*on*`** will catch `'congo'`, `'ontology'` or `'moron'`. However, **`on+`** will catch `'one'` it will not catch `'ton'` or `'onion'`. **`my++`** will catch `'mybb'`, but will not catch `'mummy'` or `'myth'`.
     - _Corrective Action:_ Admins are required to edit all the already existing dynamic word filters and define the word as per the new logic to achieve intended behavior.
 
 ## Files Changed:
