@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>effone</title>
+	<meta name="description" content="Web Design">
+	<meta name="author" content="effone">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	    crossorigin="anonymous"></script>
+	<!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div id="layer">
+			<img src="img/back.png" 
+			src-set="img/back_m.png 500w, 
+			img/back.png 1000w" 
+			alt="">
+	</div>
+	<div id="container">
+		<div id="content">
+			<h1>effone</h1>
+			<h2>happy coding.//.</h2>
+			<div class='matter'>
+				<form id="subscribe" action="subscribe.php?action=commit" method="post">
+					<input id="email" type="email" name="email">
+					<input type="submit" value="Subscribe">
+				</form>
+				<p id="response"></p>
+			</div>
+			<span class='contact'>
+				<a href="https://github.com/effone" target="_blank" title="My GitHub Profile">
+					<i class="icon icon-github">&#xe801;</i>
+				</a> <!--
+				<a href="https://codepen.io/effone/" target="_blank" title="Me @ Codepen">
+					<i class="icon icon-codepen">&#xe802;</i>
+				</a> -->
+				<a href="https://community.mybb.com/user-61867.html" target="_blank" title="Me @ MyBB">
+					<i class="icon icon-mybb">&#xe803;</i>
+				</a>
+				<a href="javascript://" onclick="SkypeWebControl.SDK.Chat.startChat({ConversationType: 'person', ConversationId: 'live:me_15369'});"
+				    title="Chat with me over Skype">
+					<i class="icon icon-skype">&#xe806;</i>
+				</a> <!--
+				<a href="https://facebook.com" target="_blank" title="Me @ Facebook">
+					<i class="icon icon-facebook">&#xe804;</i>
+				</a>
+				<a href="https://twitter.com/eff0ne" target="_blank" title="Me @ Twitter">
+					<i class="icon icon-twitter">&#xe805;</i>
+				</a> -->
+				<a href="https://stackoverflow.com/users/2768999/effone" target="_blank" title="Me @ StackOverflow">
+					<i class="icon icon-stackoverflow">&#xe808;</i>
+				</a>
+				<a href="https://keybase.io/effone" target="_blank" title="Me @ Keybase">
+					<i class="icon icon-keybase">&#xe807;</i>
+				</a>
+				<a href="mailto:me@eff.one" title="Mail me">
+					<i class="icon icon-mail">&#xe809;</i>
+				</a>
+			</span>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+	<div id="SkypeButton_Call_live:me_15369_1" style="display: none;">
+		<script type="text/javascript">
+			Skype.ui({
+				"name": "chat",
+				"element": "SkypeButton_Call_live:me_15369_1",
+				"participants": ["live:me_15369"],
+				"imageSize": 5
+			});
+		</script>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

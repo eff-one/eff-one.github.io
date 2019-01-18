@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/effone
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://eff.one
+  * I am effone (https://keybase.io/effone) on keybase.
+  * I have a public key ASDYHvGgCadYMHhvvh5zmfeX46HV1SrZr8ntigRXMmEIYAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120719f86839e3d7a51342211be46ab654ad5a46747990a1d6ad00cc6f7c37348300a",
+      "host": "keybase.io",
+      "kid": "0120d81ef1a009a75830786fbe1e7399f797e3a1d5d52ad9afc9ed8a0457326108600a",
+      "uid": "eeb6e13cec69f338c6960b233f8f2d19",
+      "username": "effone"
+    },
+    "merkle_root": {
+      "ctime": 1545328355,
+      "hash": "7c3a94b3797c49ba3ee98f9d6e4db3f794b17d1a7b3e762df1df056fb0cac644f592862bd4878ccb4b1b11d4989df37df9506bf3624dabe75d514e7a640b8e18",
+      "hash_meta": "b29d4af42d18f9c6ef16d87d90fb854f08c6e7ac90a5fb18dfe2d8ad8b1564b3",
+      "seqno": 4176049
+    },
+    "service": {
+      "entropy": "kXpq25WAMErGSB/IlMIgMkYV",
+      "hostname": "eff.one",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.2"
+  },
+  "ctime": 1545328390,
+  "expire_in": 504576000,
+  "prev": "c2c7625dc73ac24a6aa67ad015cc2be3b5c8ea0b67dc9b4384cea13a245bffe7",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2B7xoAmnWDB4b74ec5n3l+Oh1dUq2a/J7YoEVzJhCGAKp3BheWxvYWTESpcCEMQgwsdiXcc6wkpqpnrQFcwr47XI6gtn3JtDhM6hOiRb/+fEIK8m12PPRAYYbY05DCdshuQZfer6dTppmt5GxlTfc/1GAgHCo3NpZ8RAAxaUJucAfXxJN6nNjWQsHr97tGz+1IV5N2lVObAXDHETrnEvfthnTQdQoWYcnNNFgumn4/ZBvXGmFmxVVTiKDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDOA0yhHZLvPAYVA8rYH6+uMC/2qwuGPDwKoVFDaMIDKo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/effone
+
+==================================================================
